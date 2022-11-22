@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../CSS/Todo.css">
+    </head>
+    <body>
+        <main>
+            <form id="EditForm" class="center">        
+                <label for="type">Type: </label> <br>
+                <input type="text" id="editType" class="inputField"><br>
+                <label for="content">Content: </label> <br>
+                <textarea id="editContent" cols="30" rows="4" class="inputField"></textarea><br>
+                <label for="endDate">End Date</label> <br>
+                <input type="date" id="editDate" class="inputField"><br> <br>
+                <button type="submit" id="saveNote" class="button" onclick="SaveChanges()">Save Note</button>
+                <button type="button" id="editCancel" class="button" onclick="BackToMain()">Back To Main</button>
+            </form><br>
+            <script type="text/javascript" src="../JS/Edit.js"></script>
+        </main>
+    </body>
+</html>
